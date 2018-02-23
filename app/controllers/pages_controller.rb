@@ -16,4 +16,9 @@ class PagesController < ApplicationController
   def person
     @person = Person.new params[:name], params[:age]
   end
+
+  def me
+    @text = "My name is Lauren Hong. I am a sophomore studying Computer Science from Huntington Beach, California. I'm excited to learn more about web dev during this DeCal!"
+  end
+
 end
